@@ -21,3 +21,7 @@ header {
 #nav li{
   margin: 20px 0px 20px 0px;
 }
+
+.th-nav a{
+  color: #333;
+}
