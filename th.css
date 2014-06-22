@@ -8,3 +8,16 @@ header {
   height: 86px;
   width: 153px;
 }
+
+.placeholder{
+  min-height: 400px;
+}
+
+#nav li.active{
+  font-weight: bold;
+  border-right: 2px solid #ef3b39;
+}
+
+#nav li{
+  margin: 20px 0px 20px 0px;
+}
