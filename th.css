@@ -25,3 +25,26 @@ header {
 .th-nav a{
   color: #333;
 }
+
+.th-title{
+  text-align: center;
+  color: #666
+  font-style: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.th-title em{
+  color:#ef3b39;
+  font-style: bold;
+}
+
+#th-carousel {
+  height: 400px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border: 2px solid #666666;
+  position: absolute;
+  overflow: hidden;
+}
