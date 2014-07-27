@@ -45,6 +45,9 @@ header {
   margin-top: 0px;
   margin-bottom: 30px;
   border: 2px solid #666666;
-  position: absolute;
   overflow: hidden;
+}
+
+.carousel-inner > .item > img{
+  margin: 0 auto;
 }
