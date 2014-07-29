@@ -7,6 +7,7 @@ header {
 .logo{
   height: 86px;
   width: 153px;
+  margin-top: 5px;
 }
 
 .placeholder{
@@ -27,16 +28,17 @@ header {
 }
 
 .th-title{
-  text-align: center;
-  color: #666
+  text-align: left;
+  color: #ABAAA7;
   font-style: bold;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 36pt;
 }
 
 .th-title em{
   color:#ef3b39;
-  font-style: bold;
+  font-style: normal;
 }
 
 #th-carousel {
@@ -50,4 +52,14 @@ header {
 
 .carousel-inner > .item > img{
   margin: 0 auto;
+}
+
+.section-header{
+  font-size: 36pt;
+  color: #ABAAA7;
+}
+
+.section-header em{
+  color:#ef3b39;
+  font-style: normal;
 }
