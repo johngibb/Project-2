@@ -1,11 +1,20 @@
-.th-header{
+#th-header{
   background-color: #ef3b39;
   height: 80px;
   width: 100%;
   position: absolute;
 }
 
-.th-header-container{
+#th-web{
+  background-color: #B7ACA9;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  margin-top: 20px;
+  border-top: 2px solid #666666;
+}
+
+.th-background-container{
   position: relative;
   z-index: 10;
 }
@@ -20,7 +29,7 @@ img.logo{
 }
 
 .placeholder{
-  min-height: 400px;
+  min-height: 600px;
 }
 
 #nav li.active{
@@ -45,7 +54,7 @@ img.logo{
   font-size: 36pt;
 }
 
-.th-title em{
+em{
   color:#ef3b39;
   font-style: normal;
 }
@@ -68,7 +77,7 @@ img.logo{
   color: #ABAAA7;
 }
 
-.section-header em{
-  color:#ef3b39;
-  font-style: normal;
+#web-header{
+  font-size: 36pt;
+  color: #333;
 }

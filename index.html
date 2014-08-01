@@ -21,8 +21,8 @@
 
 <body data-spy="scroll" data-target="#nav">
 
-  <div class="th-header"></div>
-    <div class="container th-header-container">
+  <div id="th-header"></div>
+    <div class="container th-background-container">
       <div class="row">
         <div class="col-md-12">
           <img src="Logo2NoBackground.png" class="logo"/>
@@ -32,7 +32,7 @@
 
     <div class="container">
       <div class="row">
-        <div id="nav" class="col-md-2">
+        <div id="nav" class="col-md-2" style="z-index: 100;">
           <ul class="nav affix th-nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#web">Web</a></li>
@@ -72,25 +72,48 @@
               </a>
             </div>
           </div>
-
-          <div id="web">
-            <h2 class="section-header">Web Design<em>.</em></h2>
-            <div class="placeholder"></div>
-          </div>
-
-          <div id="product">
-            <h2 class="section-header">Product Design<em>.</em></h2>
-            <div class="placeholder"></div>
-          </div>
-
-          <div id="contact">
-            <h2 class="section-header">Contact Me<em>.</em></h2>
-            <div class="placeholder"></div>
-          </div>
-
         </div>
       </div>
     </div>
+
+    <div id="th-web"></div>
+    <div class="container th-background-container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+          <div id="web">
+            <h2 id="web-header">Web Design<em>.</em></h2>
+            <div class="placeholder"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="home"></div>
+      <div class="container th-background-container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div id="product">
+              <h2 class="section-header">Product Design<em>.</em></h2>
+              <div class="placeholder"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="home"></div>
+      <div class="container th-background-container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div id="contact">
+              <h2 class="section-header">Contact Me<em>.</em></h2>
+              <div class="placeholder"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
