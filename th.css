@@ -82,7 +82,38 @@ em{
 }
 
 .th-thumbnail{
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
   border: 6px solid #52B3F7;
   border-radius: 0px;
-  padding: 0px;
+  overflow: hidden;
+}
+
+.more{
+  display: block;
+  position: absolute;
+  color: #666;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 15px;
+	text-transform: uppercase;
+  z-index: 100;
+  background: #666;
+  opacity: 0;
+  height: 100%;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.more p{
+  margin-top: 30%;
+  text-align: center;
+}
+
+a.th-thumbnail.more:hover{
+  display: block;
+  opacity: 0.1;
 }
