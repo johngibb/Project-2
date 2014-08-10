@@ -14,7 +14,7 @@
 
 .th-foreground-container{
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
 img.logo{
@@ -92,28 +92,27 @@ em{
 }
 
 .more{
-  display: block;
   position: absolute;
-  color: #666;
-  left: 0;
+  left: 15px;
   top: 0;
-  width: 100%;
-  font-size: 15px;
+  height: 96%;
+  width: 94%;
 	text-transform: uppercase;
-  z-index: 100;
-  background: #666;
-  opacity: 0;
-  height: 100%;
+  z-index: 2;
+  background: black;
+  opacity: .0;
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
 
 .more p{
-  margin-top: 30%;
+  font-size: 24px;
+  margin-top: 45%;
   text-align: center;
+  color: #666;
+  font-weight: bold;
 }
 
-a.th-thumbnail.more:hover{
-  display: block;
-  opacity: 0.1;
+.more:hover{
+  opacity: 0.8;
 }
