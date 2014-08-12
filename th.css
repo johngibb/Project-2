@@ -6,10 +6,10 @@
 }
 
 #th-web{
-  height: 800px;
+  height: 1000px;
   width: 100%;
   position: absolute;
-  margin-top: 20px;
+  border-top: 4px solid #333;
 }
 
 .th-foreground-container{
@@ -45,7 +45,7 @@ img.logo{
 
 .th-title{
   text-align: left;
-  color: #ABAAA7;
+  color: #666;
   font-style: bold;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -61,7 +61,7 @@ em{
   height: 400px;
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   border: 4px solid #666666;
   overflow: hidden;
 }
@@ -85,18 +85,21 @@ em{
   display: block;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
-  border: 6px solid #52B3F7;
-  border-radius: 0px;
   overflow: hidden;
 }
 
+.th-thumbnail img{
+  height: auto;
+  width: 100%;
+}
+
 .more{
+  display: block;
   position: absolute;
-  left: 15px;
+  left: 0;
   top: 0;
-  height: 96%;
-  width: 94%;
+  height: 100%;
+  width: 100%;
 	text-transform: uppercase;
   z-index: 2;
   background: black;
