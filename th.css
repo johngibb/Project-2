@@ -94,8 +94,9 @@ em{
 }
 
 .more{
-  display: block;
+  display: table-cell;
   position: absolute;
+  vertical-align: middle;
   left: 0;
   top: 0;
   height: 100%;
@@ -106,6 +107,13 @@ em{
   opacity: .0;
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
+}
+
+.inner{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 
 .more p{
