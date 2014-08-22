@@ -6,7 +6,7 @@
 }
 
 #th-web{
-  height: 1000px;
+  height: 1442px;
   width: 100%;
   position: absolute;
   border-top: 4px solid #333;
@@ -91,7 +91,8 @@ em{
 
 .th-thumbnail img{
   height: auto;
-  width: 100%;
+  width: auto;
+  align: center;
 }
 
 .more{
