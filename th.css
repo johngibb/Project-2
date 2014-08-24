@@ -6,7 +6,7 @@
 }
 
 #th-web{
-  height: 1442px;
+  height: 1512px;
   width: 100%;
   position: absolute;
   border-top: 4px solid #333;
@@ -19,9 +19,7 @@
 
 img.logo{
   display: block;
-  height: 86px;
-  width: 153px;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: auto;
   margin-right: auto;
 }
