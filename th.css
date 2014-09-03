@@ -143,6 +143,11 @@ em{
 
 }
 
+.th-contact-container{
+  display: inline-block;
+  margin-top: 10px;
+}
+
 .th-contact-text{
   display: inline-block;
   font-size: 14px;
@@ -161,13 +166,26 @@ em{
 
 .th-resume-block{
   height: 40px;
-  width: 100%;
   background-color: #ef3b39;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .th-resume-header{
   font-size: 16px;
   color: #fff;
   padding: 10px;
+}
+
+.level1{
+  font-weight: bold;
+  color: #000
+}
+
+.level2{
+  color: #000
+}
+
+.level3{
+  color: #666
 }
