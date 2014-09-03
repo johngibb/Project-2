@@ -3,6 +3,7 @@
   height: 80px;
   width: 100%;
   position: absolute;
+  border-bottom: 4px solid #6F1C1B;
 }
 
 #th-web{
@@ -11,6 +12,14 @@
   position: absolute;
   border-top: 4px solid #333;
   border-bottom: 4px solid #333;
+}
+
+#th-contact{
+  height:70px;
+  width: 100%;
+  position: absolute;
+  background-color: #6F3D3C;
+  border-top: 4px solid #452525;
 }
 
 .th-foreground-container{
@@ -61,7 +70,7 @@ em{
   width: 100%;
   margin-top: 0px;
   margin-bottom: 60px;
-  border: 4px solid #666666;
+  border: 4px solid #333;
   overflow: hidden;
 }
 
@@ -125,4 +134,40 @@ em{
 
 .more:hover{
   opacity: 0.8;
+}
+
+#contact-header{
+  margin-top: 10px;
+  font-size: 36pt;
+  color: #fff;
+
+}
+
+.th-contact-text{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: text-bottom;
+  margin-left: 5px;
+  margin-right: 15px;
+  color: #000;
+}
+
+.th-glyphicon{
+  color: #ef3b39;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.th-resume-block{
+  height: 40px;
+  width: 100%;
+  background-color: #ef3b39;
+  margin-top: 20px;
+}
+
+.th-resume-header{
+  font-size: 16px;
+  color: #fff;
+  padding: 10px;
 }
