@@ -158,6 +158,10 @@ em{
   color: #000;
 }
 
+.th-contact-text a{
+  color:#000;
+}
+
 .th-glyphicon{
   color: #ef3b39;
   font-size: 18px;
@@ -179,13 +183,24 @@ em{
 
 .level1{
   font-weight: bold;
-  color: #000
+  color: #000;
 }
 
 .level2{
-  color: #000
+  color: #000;
 }
 
 .level3{
-  color: #666
+  color: #666;
+  border-left: 1px solid #ef3b39;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+
+.th-footer{
+  margin-top: 20px;
+  height: 80px;
+  width: 100%;
+  background-color: #333;
+  border-top: 4px solid #666;
 }
