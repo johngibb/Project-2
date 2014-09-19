@@ -54,17 +54,22 @@ img.logo{
   min-height: 800px;
 }
 
-#nav li.active{
+.th-nav{
+  list-style: none;
+}
+
+.th-nav li.active{
   font-weight: bold;
-  border-right: 2px solid #ef3b39;
+  color: #ef3b39;
+  border-bottom: 2px solid #ef3b39;
 }
 
-#nav li{
-  margin: 20px 0px 20px 0px;
+.th-nav li{
+  margin: 20px;
 }
-
-.th-nav a{
-  color: #333;
+.th-nav>li>a:hover{
+  color: #ef3b39;
+  text-decoration: none;
 }
 
 .th-back{
