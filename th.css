@@ -15,11 +15,27 @@
 }
 
 #th-contact{
-  height:70px;
+  height: 70px;
   width: 100%;
   position: absolute;
   background-color: #6F3D3C;
   border-top: 4px solid #452525;
+}
+
+#th-blackstone{
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+}
+
+.th-overlay{
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  background: black;
+  opacity: .7;
+  z-index: -1;
 }
 
 .th-foreground-container{
@@ -49,6 +65,24 @@ img.logo{
 
 .th-nav a{
   color: #333;
+}
+
+.th-back{
+  margin-top: 30px;
+  background-color: #333;
+}
+
+.th-back a{
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.th-back a:hover,
+.th-back a:focus{
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .th-title{
@@ -87,6 +121,18 @@ em{
   margin-top: 10px;
   font-size: 36pt;
   color: #fff;
+}
+
+.th-alt-title{
+  margin-top: 140px;
+  font-size: 36pt;
+  color: #fff;
+}
+
+.th-subtitle{
+  margin-top: 10px;
+  font-size: 24px;
+  color: #666
 }
 
 .th-thumbnail{
