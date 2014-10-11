@@ -1,5 +1,3 @@
-$('div').scrollspy({ target: '.navbar-example' })
-
 #th-header{
   background-color: #ef3b39;
   height: 80px;
@@ -58,7 +56,6 @@ img.logo{
 
 .th-nav{
   list-style: none;
-  background-color: #666;
 }
 
 .th-nav li.active{
