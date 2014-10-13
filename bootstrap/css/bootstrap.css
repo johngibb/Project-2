@@ -3486,7 +3486,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
-  background-color: #e5e5e5;
+  --background-color: #e5e5e5;
 }
 .nav > li > a > img {
   max-width: none;
@@ -3512,7 +3512,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  ---background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }

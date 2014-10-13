@@ -48,14 +48,48 @@ img.logo{
   margin-top: 3px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #ef3b39;
 }
 
 .placeholder{
   min-height: 800px;
 }
 
+.th-brand {
+  float: left;
+  padding: 3.5px;
+  padding-right: 10px;
+  background-color: #ef3b39;
+}
+.th-brand:hover,
+.th-brand:focus {
+  text-decoration: none;
+}
+
+#th-navbar{
+  display: block;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+}
+
 .th-nav{
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  width: 100%;
   list-style: none;
+  border-bottom: 2px solid #666;
+}
+
+.th-nav li{
+  display: inline-block;
+  padding-bottom: 18px;
+}
+
+.th-nav li a{
+  color: #fff;
 }
 
 .th-nav li.active{
@@ -67,9 +101,11 @@ img.logo{
 .th-nav li{
   margin: 20px;
 }
+
 .th-nav>li>a:hover{
   color: #ef3b39;
   text-decoration: none;
+  background-color: none;
 }
 
 .th-back{
