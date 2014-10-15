@@ -19,81 +19,145 @@
   <![endif]-->
 </head>
 
-<body data-spy="scroll" data-target="#nav">
+<body data-spy="scroll" data-target="#th-navbar">
 
-  <div id="th-header"></div>
-    <div class="container th-foreground-container" style="margin-bottom: 4px;">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/Logo2NoBackground.png" class="logo"/>
-        </div>
-      </div>
-    </div>
+<div id="th-navbar">
+  <div class="th-brand" href="#home"><img src="images/Logo2NoBackground.png"/></div>
+  <div class="nav th-nav">
+    <ul style="margin-left: 150px;">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#web">Web</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
 
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="th-nav navbar-nav">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#web">Web</a></li>
-              <li><a href="#product">Product</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="home">
+          <h2 class="th-title">Designer<em>.</em> Developer<em>.</em> Brooklynite<em>.</em></h2>
+          <div id="th-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#th-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#th-carousel" data-slide-to="1"></li>
+              <li data-target="#th-carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/Design.png" alt="First Slide">
+              </div>
+              <div class="item">
+                <img src="images/Develop.png" alt="Second Slide">
+              </div>
+              <div class="item">
+                <img src="images/Skyline.jpg" alt="Third Slide">
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#th-carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#th-carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="home">
-            <h2 class="th-title">Designer<em>.</em> Developer<em>.</em> Brooklynite<em>.</em></h2>
-            <div id="th-carousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#th-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#th-carousel" data-slide-to="1"></li>
-                <li data-target="#th-carousel" data-slide-to="2"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="images/Design.png" alt="First Slide">
-                </div>
-                <div class="item">
-                  <img src="images/Develop.png" alt="Second Slide">
-                </div>
-                <div class="item">
-                  <img src="images/Skyline.jpg" alt="Third Slide">
+  <img id="th-web" src="images/web_background.png">
+  <div class="container th-foreground-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="web">
+          <h2 id="web-header">Web Design<em>.</em></h2>
+          <div class="row">
+            <div class="col-md-6">
+            <a href="blackstone.html" class="th-thumbnail">
+              <div style="position: relative">
+                <img src="images/Thumb1.png">
+                <div class="more" >
+                  <div class="inner">
+                    <div class="more-text">View More</div>
+                  </div>
                 </div>
               </div>
-              <!-- Controls -->
-              <a class="left carousel-control" href="#th-carousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#th-carousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
+            </a>
+            </div>
+            <div class="col-md-6">
+            <a href="#" class="th-thumbnail">
+              <div style="position: relative">
+                <img src="images/Thumb2.png">
+                <div class="more">
+                  <div class="inner">
+                    <div class="more-text">View More</div>
+                  </div>
+                </div>
+              </div>
+            </a>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+            <a href="#" class="th-thumbnail">
+              <div style="position: relative">
+                <img src="images/RelSci.png">
+                <div class="more">
+                  <div class="inner">
+                    <div class="more-text">View More</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+          <a href="#" class="th-thumbnail">
+            <div style="position: relative">
+              <img src="images/Monarch.png">
+              <div class="more">
+                <div class="inner">
+                  <div class="more-text">View More</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-md-6">
+          <a href="#" class="th-thumbnail">
+            <div style="position: relative">
+              <img src="images/ComingSoon.png">
+              <!--div class="more">
+                <div class="inner">
+                  <div class="more-text">View More</div>
+                </div>
+              </div-->
+            </div>
+          </a>
+          </div>
+        </div>
         </div>
       </div>
     </div>
+    </div>
 
-    <img id="th-web" src="images/web_background.png">
+    <div id="th-product"></div>
     <div class="container th-foreground-container">
       <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-10">
-          <div id="web">
-            <h2 id="web-header">Web Design<em>.</em></h2>
+        <div class="col-md-12">
+          <div id="product">
+            <h2 class="section-header">Product Design<em>.</em></h2>
             <div class="row">
               <div class="col-md-6">
-              <a href="blackstone.html" class="th-thumbnail">
+              <a href="#" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/Thumb1.png">
+                  <img src="images/Product1.png">
                   <div class="more" >
                     <div class="inner">
                       <div class="more-text">View More</div>
@@ -105,7 +169,7 @@
               <div class="col-md-6">
               <a href="#" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/Thumb2.png">
+                  <img src="images/Product2.png">
                   <div class="more">
                     <div class="inner">
                       <div class="more-text">View More</div>
@@ -119,7 +183,7 @@
               <div class="col-md-12">
               <a href="#" class="th-thumbnail">
                 <div style="position: relative">
-                  <img src="images/RelSci.png">
+                  <img src="images/Product3.png">
                   <div class="more">
                     <div class="inner">
                       <div class="more-text">View More</div>
@@ -129,11 +193,11 @@
               </a>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="margin-bottom: 20px;">
             <div class="col-md-6">
             <a href="#" class="th-thumbnail">
               <div style="position: relative">
-                <img src="images/Monarch.png">
+                <img src="images/Product4.png">
                 <div class="more">
                   <div class="inner">
                     <div class="more-text">View More</div>
@@ -155,222 +219,143 @@
             </a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="th-contact"></div>
+    <div class="container th-foreground-container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="contact">
+            <h2 id="contact-header">Contact Me<em>.</em></h2>
+              <div class="th-contact-container">
+                <span class="th-glyphicon glyphicon glyphicon-earphone"></span>
+                <div class="th-contact-text">845-392-5523</div>
+                <span class="th-glyphicon glyphicon glyphicon-envelope"></span>
+                <div class="th-contact-text">tom@tomhollanddesign.com</div>
+                <span class="th-glyphicon glyphicon glyphicon-globe"></span>
+                <div class="th-contact-text"><a href="index.html">www.tomhollanddesign.com</a></div>
+              </div>
+              <div class="th-resume-block">
+                <div class="th-resume-header">Education</div>
+              </div>
+                <div class="level1">
+                  Rensselaer Polytechnic Institute (RPI), Troy, NY <em>//</em> GPA: 3.33
+                </div>
+                <div class="level2">
+                  Dual-Degree B.S. in Management and Design, Innovation and Society
+                </div>
+                <div class="level3">
+                  Dean’s List: Spring ’09, Fall ’09, Fall ’10, Spring ’11, and Spring ’12
+                </div>
+                <div class="level3">
+                  Complete design portfolio located above
+                </div>
+              <div class="th-resume-block">
+                <div class="th-resume-header">Experience</div>
+              </div>
+                <div class="level1">
+                  Relationship Science, LLC. Manhattan, NY <em>//</em> January 2013 - Current
+                </div>
+                <div class="level2">
+                  Business Analyst
+                </div>
+                <div class="level3">
+                  Responsible for designing the user interface, curating the user expereience, and perscribing the logical flow of information for our client facing application.
+                </div>
+                <div class="level3">
+                  Relationship Science (RelSci) provides deep analytical information about influential people including who they are and who they know, what you have in common with them, and most importantly, how you can gain access to them and their organizations.
+                </div>
+              <br>
+                <div class="level1">
+                  The Blackstone Group, Manhattan, NY <em>//</em> May 2012 - August 2012
+                </div>
+                <div class="level2">
+                  Summer Technology Analyst
+                </div>
+                <div class="level3">
+                  Led design on the entire user interface (UI) and user experience (UX) for an advanced Hurdle Rate Model used internally to Blackstone to greatly improve visibility and work-flow
+                </div>
+                <div class="level3">
+                  Participated in a new intern program with the Innovations & Infrastructures team
+                </div>
+              <br>
+                <div class="level1">
+                  PepsiCo, Purchas, NY <em>//</em> May 2011 - January 2012
+                </div>
+                <div class="level2">
+                  Packaging Innovation Co-op
+                </div>
+                <div class="level3">
+                  Managed and led a cross-functional team within and outside PepsiCo to create a solution to decreasing “hard to open complaints”
+                </div>
+                <div class="level3">
+                  Administered a $20,000 budget and tasked with making key decisions
+                </div>
+                <div class="level3">
+                  Developed soon to be Patented Technology for an innovative product
+                </div>
+                <div class="level3">
+                  Acted as design support on various projects creating posters, labels, & graphics
+                </div>
+              <br>
+                <div class="level1">
+                  SeeGOals LLC, Albany, NY <em>//</em> February 2010 - July 2011
+                </div>
+                <div class="level2">
+                  Co-Founder & Member
+                </div>
+                <div class="level3">
+                  One of two founding and managing members of a small start-up design firm
+                </div>
+                <div class="level3">
+                  Worked in conjunction with RPI’s Business Incubator and RPI’s Office of Technology and Commercialization
+                </div>
+                <div class="level3">
+                  Managed four participating designers in bringing to market a product focused on aiding the mobility impaired
+                </div>
+              <div class="th-resume-block">
+                <div class="th-resume-header">Skills</div>
+              </div>
+                <div class="level3">
+                  Proficient in Adobe Illustrator & Photoshop, HTML & CSS, Kubotek Key Creator, Rhinoceros, AutoCAD, Microsoft Office Products, Windows/Mac OS
+                </div>
+                <div class="level3">
+                  Proficient in design processes/procedures, project management, team cooperation, problem solving, and ethnography
+                </div>
+                <div class="level3">
+                  Knowledegable in J-Query, 3-D Printing, MS Access & Project, operations management, quantitative methods, marketing, & statistics
+                </div>
+              <div class="th-resume-block">
+                <div class="th-resume-header">Leadership</div>
+              </div>
+                <div class="level3">
+                  Boy Scouts of America, Eagle Scout
+                </div>
+                <div class="level3">
+                  RPI Student Orientation Advisor
+                </div>
+                <div class="level3">
+                  Lambda Chi Alpha Fraternity – House Manager, Alumni Chairman, Recruitment Chairman
+                </div>
+                <div class="level3">
+                  Chairman of Green Greeks Committee (RPI), Member of the Student Life Adivsory Group (RPI)
+                </div>
+                <div class="level3">
+                  Winner of the Fall 2009 Change the World Challenge & Spring 2009 Elevator Pitch Competition
+                </div>
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
-      <div id="th-product"></div>
-      <div class="container th-foreground-container">
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-10">
-            <div id="product">
-              <h2 class="section-header">Product Design<em>.</em></h2>
-              <div class="row">
-                <div class="col-md-6">
-                <a href="#" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product1.png">
-                    <div class="more" >
-                      <div class="inner">
-                        <div class="more-text">View More</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-                <div class="col-md-6">
-                <a href="#" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product2.png">
-                    <div class="more">
-                      <div class="inner">
-                        <div class="more-text">View More</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                <a href="#" class="th-thumbnail">
-                  <div style="position: relative">
-                    <img src="images/Product3.png">
-                    <div class="more">
-                      <div class="inner">
-                        <div class="more-text">View More</div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row" style="margin-bottom: 20px;">
-              <div class="col-md-6">
-              <a href="#" class="th-thumbnail">
-                <div style="position: relative">
-                  <img src="images/Product4.png">
-                  <div class="more">
-                    <div class="inner">
-                      <div class="more-text">View More</div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-              </div>
-              <div class="col-md-6">
-              <a href="#" class="th-thumbnail">
-                <div style="position: relative">
-                  <img src="images/ComingSoon.png">
-                  <!--div class="more">
-                    <div class="inner">
-                      <div class="more-text">View More</div>
-                    </div>
-                  </div-->
-                </div>
-              </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+    <div class="th-footer"></div>
 
-      <div id="th-contact"></div>
-      <div class="container th-foreground-container">
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-10">
-            <div id="contact">
-              <h2 id="contact-header">Contact Me<em>.</em></h2>
-                <div class="th-contact-container">
-                  <span class="th-glyphicon glyphicon glyphicon-earphone"></span>
-                  <div class="th-contact-text">845-392-5523</div>
-                  <span class="th-glyphicon glyphicon glyphicon-envelope"></span>
-                  <div class="th-contact-text">tom@tomhollanddesign.com</div>
-                  <span class="th-glyphicon glyphicon glyphicon-globe"></span>
-                  <div class="th-contact-text"><a href="index.html">www.tomhollanddesign.com</a></div>
-                </div>
-                <div class="th-resume-block">
-                  <div class="th-resume-header">Education</div>
-                </div>
-                  <div class="level1">
-                    Rensselaer Polytechnic Institute (RPI), Troy, NY <em>//</em> GPA: 3.33
-                  </div>
-                  <div class="level2">
-                    Dual-Degree B.S. in Management and Design, Innovation and Society
-                  </div>
-                  <div class="level3">
-                    Dean’s List: Spring ’09, Fall ’09, Fall ’10, Spring ’11, and Spring ’12
-                  </div>
-                  <div class="level3">
-                    Complete design portfolio located above
-                  </div>
-                <div class="th-resume-block">
-                  <div class="th-resume-header">Experience</div>
-                </div>
-                  <div class="level1">
-                    Relationship Science, LLC. Manhattan, NY <em>//</em> January 2013 - Current
-                  </div>
-                  <div class="level2">
-                    Business Analyst
-                  </div>
-                  <div class="level3">
-                    Responsible for designing the user interface, curating the user expereience, and perscribing the logical flow of information for our client facing application.
-                  </div>
-                  <div class="level3">
-                    Relationship Science (RelSci) provides deep analytical information about influential people including who they are and who they know, what you have in common with them, and most importantly, how you can gain access to them and their organizations.
-                  </div>
-                <br>
-                  <div class="level1">
-                    The Blackstone Group, Manhattan, NY <em>//</em> May 2012 - August 2012
-                  </div>
-                  <div class="level2">
-                    Summer Technology Analyst
-                  </div>
-                  <div class="level3">
-                    Led design on the entire user interface (UI) and user experience (UX) for an advanced Hurdle Rate Model used internally to Blackstone to greatly improve visibility and work-flow
-                  </div>
-                  <div class="level3">
-                    Participated in a new intern program with the Innovations & Infrastructures team
-                  </div>
-                <br>
-                  <div class="level1">
-                    PepsiCo, Purchas, NY <em>//</em> May 2011 - January 2012
-                  </div>
-                  <div class="level2">
-                    Packaging Innovation Co-op
-                  </div>
-                  <div class="level3">
-                    Managed and led a cross-functional team within and outside PepsiCo to create a solution to decreasing “hard to open complaints”
-                  </div>
-                  <div class="level3">
-                    Administered a $20,000 budget and tasked with making key decisions
-                  </div>
-                  <div class="level3">
-                    Developed soon to be Patented Technology for an innovative product
-                  </div>
-                  <div class="level3">
-                    Acted as design support on various projects creating posters, labels, & graphics
-                  </div>
-                <br>
-                  <div class="level1">
-                    SeeGOals LLC, Albany, NY <em>//</em> February 2010 - July 2011
-                  </div>
-                  <div class="level2">
-                    Co-Founder & Member
-                  </div>
-                  <div class="level3">
-                    One of two founding and managing members of a small start-up design firm
-                  </div>
-                  <div class="level3">
-                    Worked in conjunction with RPI’s Business Incubator and RPI’s Office of Technology and Commercialization
-                  </div>
-                  <div class="level3">
-                    Managed four participating designers in bringing to market a product focused on aiding the mobility impaired
-                  </div>
-                <div class="th-resume-block">
-                  <div class="th-resume-header">Skills</div>
-                </div>
-                  <div class="level3">
-                    Proficient in Adobe Illustrator & Photoshop, HTML & CSS, Kubotek Key Creator, Rhinoceros, AutoCAD, Microsoft Office Products, Windows/Mac OS
-                  </div>
-                  <div class="level3">
-                    Proficient in design processes/procedures, project management, team cooperation, problem solving, and ethnography
-                  </div>
-                  <div class="level3">
-                    Knowledegable in J-Query, 3-D Printing, MS Access & Project, operations management, quantitative methods, marketing, & statistics
-                  </div>
-                <div class="th-resume-block">
-                  <div class="th-resume-header">Leadership</div>
-                </div>
-                  <div class="level3">
-                    Boy Scouts of America, Eagle Scout
-                  </div>
-                  <div class="level3">
-                    RPI Student Orientation Advisor
-                  </div>
-                  <div class="level3">
-                    Lambda Chi Alpha Fraternity – House Manager, Alumni Chairman, Recruitment Chairman
-                  </div>
-                  <div class="level3">
-                    Chairman of Green Greeks Committee (RPI), Member of the Student Life Adivsory Group (RPI)
-                  </div>
-                  <div class="level3">
-                    Winner of the Fall 2009 Change the World Challenge & Spring 2009 Elevator Pitch Competition
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="th-footer"></div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>

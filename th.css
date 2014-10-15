@@ -80,29 +80,32 @@ img.logo{
   height: 80px;
   width: 100%;
   list-style: none;
-  border-bottom: 2px solid #666;
+  border-bottom: 3px solid #666;
+  font-size: 14pt;
 }
 
 .th-nav li{
   display: inline-block;
-  padding-bottom: 18px;
-}
-
-.th-nav li a{
-  color: #fff;
+  padding: 0px 5px 20px 5px;
+  margin: 30px 15px 0px 15px;
 }
 
 .th-nav li.active{
+  border-bottom: 3px solid #ef3b39;
+
+  color: #fff;
+}
+
+.th-nav li a{
+  color: #ccc;
+}
+
+.th-nav li.active a{
   font-weight: bold;
-  color: #ef3b39;
-  border-bottom: 2px solid #ef3b39;
+  color: #fff;
 }
 
-.th-nav li{
-  margin: 20px;
-}
-
-.th-nav>li>a:hover{
+.th-nav li a:hover{
   color: #ef3b39;
   text-decoration: none;
   background-color: none;
@@ -130,7 +133,7 @@ img.logo{
   text-align: left;
   color: #666;
   font-style: bold;
-  margin-top: 30px;
+  margin-top: 120px;
   margin-bottom: 30px;
   font-size: 36pt;
 }

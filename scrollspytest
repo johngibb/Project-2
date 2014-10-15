@@ -21,9 +21,9 @@
 
 <body data-spy="scroll" data-target="#th-navbar">
 <div id="th-navbar">
-  <div class="th-brand" href="#"><img src="images/Logo2NoBackground.png"/></div>
-  <div class="th-nav">
-    <ul>
+  <div class="th-brand" href="#home"><img src="images/Logo2NoBackground.png"/></div>
+  <div class="nav th-nav">
+    <ul style="margin-left: 150px;">
       <li><a href="#home">Home</a></li>
       <li><a href="#web">Web</a></li>
       <li><a href="#product">Product</a></li>
