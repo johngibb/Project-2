@@ -114,7 +114,8 @@ img.logo{
 .th-back{
   margin-top: 30px;
   background-color: #333;
-  padding: 5px;
+  padding: 10px 15px 10px 20px;
+  z-index: 5;
 }
 
 .th-back a{
@@ -127,7 +128,7 @@ img.logo{
 .th-back a:hover,
 .th-back a:focus{
   text-decoration: none;
-  font-weight: bold;
+  color: #ef3b39;
 }
 
 .th-title{
