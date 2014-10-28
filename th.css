@@ -48,28 +48,74 @@ img.logo{
   margin-top: 3px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #ef3b39;
 }
 
 .placeholder{
   min-height: 800px;
 }
 
-#nav li.active{
+.th-brand {
+  float: left;
+  padding: 3.5px;
+  padding-right: 10px;
+  background-color: #ef3b39;
+}
+.th-brand:hover,
+.th-brand:focus {
+  text-decoration: none;
+}
+
+#th-navbar{
+  display: block;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+}
+
+.th-nav{
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  list-style: none;
+  border-bottom: 3px solid #666;
+  font-size: 14pt;
+}
+
+.th-nav li{
+  display: inline-block;
+  padding: 0px 5px 20px 5px;
+  margin: 30px 15px 0px 15px;
+}
+
+.th-nav li.active{
+  border-bottom: 3px solid #ef3b39;
+
+  color: #fff;
+}
+
+.th-nav li a{
+  color: #ccc;
+}
+
+.th-nav li.active a{
   font-weight: bold;
-  border-right: 2px solid #ef3b39;
+  color: #fff;
 }
 
-#nav li{
-  margin: 20px 0px 20px 0px;
-}
-
-.th-nav a{
-  color: #333;
+.th-nav li a:hover{
+  color: #ef3b39;
+  text-decoration: none;
+  background-color: none;
 }
 
 .th-back{
   margin-top: 30px;
   background-color: #333;
+  padding: 10px 15px 10px 20px;
+  z-index: 5;
 }
 
 .th-back a{
@@ -82,14 +128,14 @@ img.logo{
 .th-back a:hover,
 .th-back a:focus{
   text-decoration: none;
-  font-weight: bold;
+  color: #ef3b39;
 }
 
 .th-title{
   text-align: left;
   color: #666;
   font-style: bold;
-  margin-top: 30px;
+  margin-top: 120px;
   margin-bottom: 30px;
   font-size: 36pt;
 }
@@ -154,8 +200,8 @@ em{
   position: absolute;
   left: 0;
   top: 0;
-  height: 458px;
-  width: 101%;
+  height: 460px;
+  width: 100%;
 	text-transform: uppercase;
   background: black;
   opacity: .0;
