@@ -7,30 +7,71 @@
 }
 
 #th-web{
-  height: 1512px;
+  height: 1600px;
   width: 100%;
   position: absolute;
   border-top: 4px solid #333;
   border-bottom: 4px solid #333;
 }
 
+#th-product{
+  background-color: #fff;
+  height: 1600px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
 #th-contact{
-  height: 70px;
+  height: 1380px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+}
+
+#th-contact-header{
+  height: 74px;
   width: 100%;
   position: absolute;
   background-color: #6F3D3C;
   border-top: 4px solid #452525;
+  border-bottom: 4px solid #452525;
 }
 
-#th-blackstone{
-  height: 400px;
+.th-cover{
+    /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
   width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: -100px;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+.th-header-image{
+  height: auto;
+  width: 1200px;
   position: absolute;
   z-index: -2;
 }
 
 .th-overlay{
-  height: 400px;
+  min-height: 800px;
   width: 100%;
   position: absolute;
   background: black;
@@ -133,10 +174,10 @@ img.logo{
 
 .th-title{
   text-align: left;
-  color: #666;
+  color: #333;
   font-style: bold;
-  margin-top: 120px;
-  margin-bottom: 30px;
+  margin-top: 200px;
+  margin-bottom: 420px;
   font-size: 36pt;
 }
 
@@ -161,10 +202,13 @@ em{
 .section-header{
   font-size: 36pt;
   color: #ABAAA7;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #web-header{
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 36pt;
   color: #fff;
 }
@@ -177,8 +221,9 @@ em{
 
 .th-subtitle{
   margin-top: 10px;
+  margin-bottom: 250px;
   font-size: 24px;
-  color: #666
+  color: #888;
 }
 
 .th-thumbnail{
@@ -228,7 +273,9 @@ em{
   opacity: 0.8;
 }
 
-#contact-header{
+
+
+#th-contact-header-text{
   margin-top: 10px;
   font-size: 36pt;
   color: #fff;
@@ -237,7 +284,7 @@ em{
 
 .th-contact-container{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .th-contact-text{
@@ -295,4 +342,14 @@ em{
   width: 100%;
   background-color: #333;
   border-top: 4px solid #666;
+}
+
+.th-background{
+  height: 1530px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 500px;
+  z-index: -1;
+  border-top: 4px solid black;
 }
