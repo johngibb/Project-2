@@ -343,7 +343,6 @@ em a{
 
 .th-text-container{
   display: table;
-  height: 352px;
 }
 
 .th-text-box{
@@ -362,7 +361,7 @@ em a{
 }
 
 .th-background{
-  height: 800px;
+  height: 1500px;
   width: 100%;
   background-color: #fff;
   position: absolute;
@@ -375,12 +374,15 @@ em a{
   color: #333;
   font-size: 36px;
   text-align: center;
+  vertical-align: middle;
   margin-top: 100px;
   margin-bottom: 100px;
+  text-transform: uppercase;
 }
 
 .under-construction p{
   color: #666;
   font-size: 24px;
   margin-top: 15px;
+  text-transform: none;
 }
