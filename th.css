@@ -341,9 +341,13 @@ em a{
   margin-top: 10px;
 }
 
+.th-spacer{
+  height: 50px;
+  width: 100%;
+}
+
 .th-text-container{
   display: table;
-  margin-bottom: 75px;
 }
 
 .th-text-box{
@@ -353,6 +357,13 @@ em a{
   vertical-align: middle;
 }
 
+.th-borders{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #004712;
+  border-bottom: 2px solid #004712;
+  }
+
 .th-footer{
   margin-top: 20px;
   height: 80px;
@@ -361,8 +372,26 @@ em a{
   border-top: 4px solid #666;
 }
 
+#th-green{
+  padding-top: 15px;
+  color: #031502;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#th-greengreeks-middle{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-image: url(images/greengreekstexture.png);
+  border-top: 4px solid #004712;
+  border-bottom: 4px solid #004712;
+}
+
 .th-background{
-  height: 1500px;
+  min-height: 1400px;
+  max-height: 1800px;
   width: 100%;
   background-color: #fff;
   position: absolute;
