@@ -373,10 +373,9 @@ em a{
 }
 
 #th-green{
-  padding-top: 15px;
-  color: #031502;
+  padding-top: 20px;
+  color: #fff;
   font-size: 18px;
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -386,7 +385,6 @@ em a{
   position: absolute;
   background-image: url(images/greengreekstexture.png);
   border-top: 4px solid #004712;
-  border-bottom: 4px solid #004712;
 }
 
 .th-background{
@@ -401,18 +399,21 @@ em a{
 }
 
 .under-construction{
-  color: #333;
+  color: #E1E1E1;
   font-size: 36px;
   text-align: center;
-  vertical-align: middle;
   margin-top: 100px;
   margin-bottom: 100px;
   text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px -1px 0px #B4B4B4;
 }
 
 .under-construction p{
-  color: #666;
-  font-size: 24px;
+  color: #9A9A9A;
+  font-size: 20px;
   margin-top: 15px;
+  font-weight: normal;
   text-transform: none;
+  text-shadow: none;
 }
