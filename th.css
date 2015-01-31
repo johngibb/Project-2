@@ -65,8 +65,9 @@
 
 .th-header-image{
   height: auto;
-  width: 1200px;
-  position: absolute;
+  width: 100%;
+  min-width: 1200px;
+  position: static;
   z-index: -2;
 }
 
@@ -90,6 +91,13 @@ img.logo{
   margin-left: auto;
   margin-right: auto;
   background-color: #ef3b39;
+}
+
+img.diamond-logo{
+  display: block;
+  margin-top: -55px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .placeholder{
