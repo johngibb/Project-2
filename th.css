@@ -62,15 +62,6 @@
   }
 }
 
-
-.th-header-image{
-  height: auto;
-  width: 100%;
-  min-width: 1200px;
-  position: static;
-  z-index: -2;
-}
-
 .th-overlay{
   min-height: 800px;
   width: 100%;
@@ -436,14 +427,8 @@ em a{
 
 .th-header-image{
   height: 400px;
-  background: #000;
-  overflow: hidden;
-}
-
-.th-header-image img{
-  display: block;
-  overflow: hidden;
-  margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  background-image: url(images/Monarch_header.png);
+  background-size: cover;
+  border: 1px solid #fff;
 }
