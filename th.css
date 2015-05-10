@@ -39,6 +39,20 @@
   border-bottom: 4px solid #452525;
 }
 
+.th-cover-div {
+  height: 500px;
+  background-image: url(images/Monarch_Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid red;
+}
+
 .th-cover{
     /* Set rules to fill background */
   min-height: 100%;
